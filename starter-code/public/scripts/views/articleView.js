@@ -48,6 +48,7 @@ var app = app || {};
       $('#author-filter').val('');
     });
   };
+
   articleView.setTeasers = function() {
     $('.article-body *:nth-of-type(n+2)').hide();
     $('article').on('click', 'a.read-on', function(e) {
