@@ -49,9 +49,6 @@ var app = app || {};
     });
   };
 
-  /* TODO: Once the routes are handling '/' and '/about', we can delete
-      this handleMainNav function. YESSSS! */
-
   articleView.setTeasers = function() {
     $('.article-body *:nth-of-type(n+2)').hide();
     $('article').on('click', 'a.read-on', function(e) {
